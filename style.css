@@ -1,8 +1,15 @@
 body
 {
 	background-color: #877c78;
+	font-family: 'BioRhyme', serif;
+	margin: 0px;
+}
+.clean
+{
+	clear: both;
 }
 
+ !-- 500x709-->
 #container
 {
 	width: 100%;
@@ -20,12 +27,42 @@ body
 
 #content
 {
-	height: 510px;
+	height: 440px;
+	width: 100%;
 }
 
 #footer
 {
+	clear: both;
 	font-size: 15px;
 	text-align: center;
-	height: 30px;
+	height: 15px;
 }
+
+#few_tiles
+{
+	padding: 50px;
+	float: left;
+	width: *%;
+	height: 440px;
+	background-color: blue;
+}
+
+#tile_description
+{
+	float: left;
+	width: 50%;
+	height: 440px;
+	background-color: white;
+}
+
+.tile1
+{
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-color: black;
+}
+
+
+
